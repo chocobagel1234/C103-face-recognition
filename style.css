@@ -1,0 +1,49 @@
+/*Comfort Zone - Handwrittten Calligraphy Font*/
+@font-face {
+    font-family: Comfort Zone;
+    src: url("Comfort\ Zone.otf");
+}
+
+
+body, .container-fluid {
+    text-align: center;
+    background: linear-gradient(to bottom right, #c7c8e2, #7782ba );
+    font-family: 'Catamaran', sans-serif;
+}
+
+.name-div {
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    display:inline-block;
+
+    .name-label {
+        color: #4b537c;
+        font-family: 'Varela Round', sans-serif;
+        font-weight: bold;
+    }
+}
+
+#camera {
+    height: max-content;
+    width: max-content;
+    border-style: dashed;
+    border-color: #4b537c;
+}
+
+#center-div{
+    text-align:center;
+}
+
+.header {
+    font-family:'Comfort Zone', sans-serif;
+    font-size:3rem;
+}
+
+.subtitle {
+    font-family:'Varela Round';
+}
+
+label, button {
+    font-family:'Varela Round', sans-serif !important;
+}
